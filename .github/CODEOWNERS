@@ -1,0 +1,13 @@
+# Each line is a file pattern followed by one or more owners.
+# Last matching pattern wins - keep more specific rules below general ones.
+# Replace the placeholder owner(s) below with real GitHub usernames/teams.
+
+# Default owner for everything in the repo
+*                       @spindev
+
+# Service-specific owners
+/backend/               @spindev
+/frontend/               @spindev
+
+# CI/CD and repo configuration
+/.github/               @spindev

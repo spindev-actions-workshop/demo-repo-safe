@@ -1,0 +1,14 @@
+name: test
+
+on: 
+  workflow_dispatch:
+    inputs:
+     environment:
+       type: environment
+       description: Select environment to deploy to 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
